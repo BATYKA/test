@@ -479,6 +479,7 @@ a {
 
 .button-red {
 	display: inline-block;
+	border-radius: 3%;
 	padding: 15px 40px;
 	margin-top: 10px;
 	font: inherit;
@@ -502,6 +503,7 @@ a {
 
 .button-green {
 	display: inline-block;
+	border-radius: 3%;
 	padding: 15px 40px;
 	margin-top: 10px;
 	font: inherit;
@@ -525,6 +527,7 @@ a {
 
 .button-yellow {
 	display: inline-block;
+	border-radius: 3%;
 	padding: 15px 40px;
 	margin-top: 10px;
 	font: inherit;

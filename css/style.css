@@ -346,6 +346,19 @@ a {
 	list-style: none;
 }
 
+.footer {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.map-wrapper {
+	width: 1440px;
+	margin: 0 auto;
+	position: relative;
+	left: -120px;
+}
+
 .contacts {
 	width: 270px;
 	height: 260px;
@@ -369,12 +382,6 @@ a {
 	margin: 0;
 	margin-bottom: 20px;
 	padding: 0;
-}
-
-.map-wrapper {
-	width: 1440px;
-	margin: 0 auto;
-	position: relative;
 }
 
 .contacts h3{

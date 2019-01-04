@@ -149,6 +149,144 @@ a {
 	margin-bottom: 10px;
 }
 
+.presentation-button1 {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 0px;
+	height: 0px;
+	font-size: 0px;
+}
+
+.presentation-button1-alt {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 0px;
+	height: 0px;
+	font-size: 0px;
+}
+
+.presentation-button1::before {
+	content: "";
+	position: absolute;
+	background-color: #fefefe;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	top: -115px;
+	left: -70px;
+	cursor: pointer;
+}
+
+.presentation-button1-alt::after {
+	content: "";
+	position: absolute;
+	background-color: #fefefe;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	top: -111px;
+	left: -66px;
+	border: solid 3px #4d4d4d;
+	cursor: pointer;
+	opacity: 0.3;
+}
+
+.presentation-button2 {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 0px;
+	height: 0px;
+	font-size: 0px;
+}
+
+.presentation-button2-alt {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 0px;
+	height: 0px;
+	font-size: 0px;
+}
+
+.presentation-button2::before {
+	content: "";
+	position: absolute;
+	background-color: #fefefe;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	top: -115px;
+	left: -36px;
+	cursor: pointer;
+}
+
+.presentation-button2-alt::after {
+	content: "";
+	position: absolute;
+	background-color: #fefefe;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	top: -111px;
+	left: -32px;
+	border: solid 3px #4d4d4d;
+	cursor: pointer;
+	opacity: 0.3;
+}
+
+.presentation-button3 {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 0px;
+	height: 0px;
+	font-size: 0px;
+}
+
+.presentation-button3-alt {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 0px;
+	height: 0px;
+	font-size: 0px;
+}
+
+.presentation-button3::before {
+	content: "";
+	position: absolute;
+	background-color: #fefefe;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	top: -115px;
+	left: -2px;
+	cursor: pointer;
+}
+
+.presentation-button3-alt::after {
+	content: "";
+	position: absolute;
+	background-color: #fefefe;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	top: -111px;
+	left: 2px;
+	border: solid 3px #4d4d4d;
+	cursor: pointer;
+	opacity: 0.3;
+}
+
 .visually-hidden {
 	display:none;
 }

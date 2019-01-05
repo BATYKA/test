@@ -127,11 +127,25 @@ a {
 	padding: 0;
 }
 
-.presentation img{
-	padding-right: 30px;
+.presentation1 img{
+	padding-right: 20px;
+}
+
+.presentation1 {
+	display: flex;
+}
+
+.presentation2 {
+	display: flex;
+	align-items: center;
+	width: 1200px;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 0;
 }
 
 .presentation-text {
+	display: block;
 	margin: 0;
 	padding: 0;
 	width: 420px;
@@ -139,14 +153,62 @@ a {
 
 .presentation-text h1{
 	margin: 0;
-	padding: 10px 0;
-	margin-bottom: 10px;
+	padding: 0;
+	margin-top: 60px;
 }
 
 .presentation-text p{
 	margin: 0;
-	padding: 10px 0;
-	margin-bottom: 10px;
+	padding: 0;
+	margin-top: 26px;
+	margin-bottom: 40px;
+}
+
+.presentation2-text {
+	width: 520px;
+	height: 430px;
+	margin: 0;
+	padding: 0;
+}
+
+.presentation2-text h1{
+	margin: 0;
+	padding: 0;
+	margin-top: 59px;
+}
+
+.presentation2-text p{
+	margin: 0;
+	padding: 0;
+	margin-top: 26px;
+	margin-bottom: 40px;
+}
+
+.presentation3 {
+	display: flex;
+	align-items: center;
+	width: 1200px;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.presentation3-text {
+	width: 430px;
+	height: 430px;
+}
+
+.presentation3-text h1{
+	margin: 0;
+	padding: 0;
+	margin-top: 59px;
+}
+
+.presentation3-text p{
+	margin: 0;
+	padding: 0;
+	margin-top: 26px;
+	margin-bottom: 40px;
 }
 
 .presentation-button1 {

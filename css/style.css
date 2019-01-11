@@ -219,6 +219,12 @@ a {
 	width: 0px;
 	height: 0px;
 	font-size: 0px;
+	opacity: 0.5;
+}
+
+.presentation-button1:hover,
+.presentation-button1:focus {
+	opacity: 1;
 }
 
 .presentation-button1-alt {
@@ -238,7 +244,7 @@ a {
 	width: 18px;
 	height: 18px;
 	border-radius: 50%;
-	top: -115px;
+	top: -40px;
 	left: -70px;
 	cursor: pointer;
 }
@@ -250,7 +256,7 @@ a {
 	width: 4px;
 	height: 4px;
 	border-radius: 50%;
-	top: -111px;
+	top: -36px;
 	left: -66px;
 	border: solid 3px #4d4d4d;
 	cursor: pointer;
@@ -265,6 +271,12 @@ a {
 	width: 0px;
 	height: 0px;
 	font-size: 0px;
+	opacity: 0.5;
+}
+
+.presentation-button2:hover,
+.presentation-button2:focus {
+	opacity: 1;
 }
 
 .presentation-button2-alt {
@@ -284,7 +296,7 @@ a {
 	width: 18px;
 	height: 18px;
 	border-radius: 50%;
-	top: -115px;
+	top: -40px;
 	left: -36px;
 	cursor: pointer;
 }
@@ -296,7 +308,7 @@ a {
 	width: 4px;
 	height: 4px;
 	border-radius: 50%;
-	top: -111px;
+	top: -36px;
 	left: -32px;
 	border: solid 3px #4d4d4d;
 	cursor: pointer;
@@ -311,6 +323,12 @@ a {
 	width: 0px;
 	height: 0px;
 	font-size: 0px;
+	opacity: 0.5;
+}
+
+.presentation-button3:hover,
+.presentation-button3:focus {
+	opacity: 1;
 }
 
 .presentation-button3-alt {
@@ -330,7 +348,7 @@ a {
 	width: 18px;
 	height: 18px;
 	border-radius: 50%;
-	top: -115px;
+	top: -40px;
 	left: -2px;
 	cursor: pointer;
 }
@@ -342,7 +360,7 @@ a {
 	width: 4px;
 	height: 4px;
 	border-radius: 50%;
-	top: -111px;
+	top: -36px;
 	left: 2px;
 	border: solid 3px #4d4d4d;
 	cursor: pointer;

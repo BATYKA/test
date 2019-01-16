@@ -6,6 +6,33 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 		<link rel="stylesheet" href="css/normalize.css"> 
 		<link rel="stylesheet" href="css/style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+		<script src="./js/ResponsiveSlides.js-master/responsiveslides.min.js"></script>
+		<script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+			// Slideshow 2
+			$("#prList").responsiveSlides({
+			"auto": true,             // Boolean: Animate automatically, true or false
+			"speed": 500,             // Integer: Speed of the transition, in milliseconds
+			"timeout": 3000,          // Integer: Time between slide transitions, in milliseconds
+			"pager": true,           // Boolean: Show pager, true or false
+			"nav": false,             // Boolean: Show navigation, true or false
+			"random": false,          // Boolean: Randomize the order of the slides, true or false
+			"pause": false,           // Boolean: Pause on hover, true or false
+			"pauseControls": true,    // Boolean: Pause when hovering controls, true or false
+			"prevText": "Previous",   // String: Text for the "previous" button
+			"nextText": "Next",       // String: Text for the "next" button
+			"maxwidth": "",           // Integer: Max-width of the slideshow, in pixels
+			"navContainer": "",       // Selector: Where auto generated controls should be appended to, default is after the <ul>
+			"manualControls": "",     // Selector: Declare custom pager navigation
+			"namespace": "presentation-buttons",   // String: change the default namespace used
+			"before": $.noop,         // Function: Before callback
+			"after": $.noop
+			});
+	
+		});
+		</script>
 	</head>
 	<body>
 		<header class="main-header">
@@ -26,34 +53,33 @@
 				</ul>
 			</nav>
 			<section class="presentation">
-				<div class="presentation1" id="pr1">
-					<div class="presentation-text">
-						<h1>Долго, дорого, скурпулезно.</h1>
-						<p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
-						<button class="button-red">Узнать больше</button>
-					</div>
-					<img src="img/header-slide1.png" width="760px" height="431px" alt="Фоновое изображение">
-				</div>
-				<div class="presentation2 visually-hidden" id="pr2">
-					<div class="presentation2-text">
-						<h1>Любим математику<br>как никто другой</h1>
-						<p>Никакого креатива, только математические формулы<br>для расчета идеальных пропорций.</p>
-						<button class="button-red">Узнать больше</button>
-					</div>
-					<img src="img/header-slide2.png" width="665px" height="431px" alt="Фоновое изображение">
-				</div>
-				<div class="presentation3 visually-hidden" id="pr3">
+				<ul class="prList" id="prList">
+					<li><div class="presentation1" id="pr1">
+						<div class="presentation-text">
+							<h1>Долго, дорого, скурпулезно.</h1>
+							<p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+							<button class="button-red">Узнать больше</button>
+						</div>
+						<img src="img/header-slide1.png" width="760px" height="431px" alt="Фоновое изображение">
+					</div></li>
+					<li><div class="presentation2" id="pr2">
+						<div class="presentation2-text">
+							<h1>Любим математику<br>как никто другой</h1>
+							<p>Никакого креатива, только математические формулы<br>для расчета идеальных пропорций.</p>
+							<button class="button-red">Узнать больше</button>
+						</div>
+						<img src="img/header-slide2.png" width="665px" height="431px" alt="Фоновое изображение">
+					</div></li>
+					<li><div class="presentation3" id="pr3">
 						<div class="presentation3-text">
 							<h1>Только ночь, только хардкор</h1>
 							<p>Работать днем, как все? Мы против этого.<br>Ближе к полуночи работа только начинается.</p>
 							<button class="button-red">Узнать больше</button>
 						</div>
 						<img src="img/header-slide3.png" width="760px" height="431px" alt="Фоновое изображение">
-					</div>
+					</div></li>
+				</ul>
 			</section>
-			<p class="presentation-button1 presentation-button1-alt" id="prB1">Кнопка</p>
-			<p class="presentation-button2" id="prB2">Кнопка</p>
-			<p class="presentation-button3" id="prB3">Кнопка</p>
 		</header>
 		<main>
 			<section class="services">

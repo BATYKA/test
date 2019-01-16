@@ -118,6 +118,12 @@ a {
 	line-height: 55px;
 }
 
+.prList {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
 .presentation {
 	display: flex;
 	align-items: center;
@@ -211,7 +217,12 @@ a {
 	margin-bottom: 40px;
 }
 
-.presentation-button1 {
+.presentation-buttons1_tabs {
+	list-style: none;
+	position: absolute;
+}
+
+.presentation-buttons1_s1 {
 	position: relative;
 	display: block;
 	margin: 0 auto;
@@ -219,51 +230,28 @@ a {
 	width: 0px;
 	height: 0px;
 	font-size: 0px;
-	opacity: 0.5;
+	opacity: 0.3;
+	z-index: 3;
 }
 
-.presentation-button1:hover,
-.presentation-button1:focus {
+.presentation-buttons1_s1:hover,
+.presentation-buttons1_s1:focus {
 	opacity: 1;
 }
 
-.presentation-button1-alt {
-	position: relative;
-	display: block;
-	margin: 0 auto;
-	padding: 0;
-	width: 0px;
-	height: 0px;
-	font-size: 0px;
-}
-
-.presentation-button1::before {
+.presentation-buttons1_s1::before {
 	content: "";
 	position: absolute;
-	background-color: #fefefe;
+	background-color: #757575;
 	width: 18px;
 	height: 18px;
 	border-radius: 50%;
-	top: -40px;
-	left: -70px;
+	top: 155px;
+	left: 500px;
 	cursor: pointer;
 }
 
-.presentation-button1-alt::after {
-	content: "";
-	position: absolute;
-	background-color: #fefefe;
-	width: 4px;
-	height: 4px;
-	border-radius: 50%;
-	top: -36px;
-	left: -66px;
-	border: solid 3px #4d4d4d;
-	cursor: pointer;
-	opacity: 0.3;
-}
-
-.presentation-button2 {
+.presentation-buttons1_s2 {
 	position: relative;
 	display: block;
 	margin: 0 auto;
@@ -271,51 +259,28 @@ a {
 	width: 0px;
 	height: 0px;
 	font-size: 0px;
-	opacity: 0.5;
+	opacity: 0.3;
+	z-index: 3;
 }
 
-.presentation-button2:hover,
-.presentation-button2:focus {
+.presentation-buttons1_s2:hover,
+.presentation-buttons1_s2:focus {
 	opacity: 1;
 }
 
-.presentation-button2-alt {
-	position: relative;
-	display: block;
-	margin: 0 auto;
-	padding: 0;
-	width: 0px;
-	height: 0px;
-	font-size: 0px;
-}
-
-.presentation-button2::before {
+.presentation-buttons1_s2::before {
 	content: "";
 	position: absolute;
-	background-color: #fefefe;
+	background-color: #757575;
 	width: 18px;
 	height: 18px;
 	border-radius: 50%;
-	top: -40px;
-	left: -36px;
+	top: 155px;
+	left: 534px;
 	cursor: pointer;
 }
 
-.presentation-button2-alt::after {
-	content: "";
-	position: absolute;
-	background-color: #fefefe;
-	width: 4px;
-	height: 4px;
-	border-radius: 50%;
-	top: -36px;
-	left: -32px;
-	border: solid 3px #4d4d4d;
-	cursor: pointer;
-	opacity: 0.3;
-}
-
-.presentation-button3 {
+.presentation-buttons1_s3 {
 	position: relative;
 	display: block;
 	margin: 0 auto;
@@ -323,48 +288,29 @@ a {
 	width: 0px;
 	height: 0px;
 	font-size: 0px;
-	opacity: 0.5;
+	opacity: 0.3;
+	z-index: 3;
 }
 
-.presentation-button3:hover,
-.presentation-button3:focus {
+.presentation-buttons1_s3:hover,
+.presentation-buttons1_s3:focus {
 	opacity: 1;
 }
 
-.presentation-button3-alt {
-	position: relative;
-	display: block;
-	margin: 0 auto;
-	padding: 0;
-	width: 0px;
-	height: 0px;
-	font-size: 0px;
-}
-
-.presentation-button3::before {
+.presentation-buttons1_s3::before {
 	content: "";
 	position: absolute;
-	background-color: #fefefe;
+	background-color: #757575;
 	width: 18px;
 	height: 18px;
 	border-radius: 50%;
-	top: -40px;
-	left: -2px;
+	top: 155px;
+	left: 568px;
 	cursor: pointer;
 }
 
-.presentation-button3-alt::after {
-	content: "";
-	position: absolute;
-	background-color: #fefefe;
-	width: 4px;
-	height: 4px;
-	border-radius: 50%;
-	top: -36px;
-	left: 2px;
-	border: solid 3px #4d4d4d;
-	cursor: pointer;
-	opacity: 0.3;
+.presentation-buttons_here {
+	opacity: 0.5;
 }
 
 .visually-hidden {
